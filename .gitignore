@@ -21,15 +21,14 @@ POLL-PLAN.md
 # Points at a permanently-open poll session. Slide material, not web material.
 slide-assets/
 
-# Email bundles - carry Luke's slides, and are rebuilt by scripts/make_bundles.py
-bundles/
-
-# The published copies under docs/files/ are the ones that ship. The originals
-# in the repo root are the working copies.
-/UDL_Lens_iSoLT_Handout_v3.docx
+# The per-event working folders stay local: they hold the joint decks (Luke's
+# material) alongside the working copies of the handouts. What ships is the
+# copy in docs/files/, placed there by scripts/build.py.
+/showcase/
+/zoo-day/
 /UDL3_Coverage_Map_for_review.docx
-/UDL_Lens_ZooDay_Print_Materials.docx
-/UDL_Lens_Showcase_AI_half_v1.pptx
+
+__pycache__/
 
 .DS_Store
 ._*

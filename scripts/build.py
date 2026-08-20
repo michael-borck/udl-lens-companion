@@ -53,11 +53,12 @@ GUIDELINES = [
 ]
 
 # Published for download. Everything else stays local - see .gitignore.
+# Paths are relative to the repo root; only the basename lands in docs/files/.
 PUBLIC_FILES = [
-    "UDL_Lens_iSoLT_Handout_v3.docx",
+    "zoo-day/UDL_Lens_iSoLT_Handout_v3.docx",
     "UDL3_Coverage_Map_for_review.docx",
-    "UDL_Lens_ZooDay_Print_Materials.docx",
-    "UDL_Lens_Showcase_AI_half_v1.pptx",
+    "zoo-day/UDL_Lens_ZooDay_Print_Materials.docx",
+    "showcase/UDL_Lens_Showcase_AI_half_v1.pptx",
 ]
 
 
@@ -166,7 +167,7 @@ def main() -> None:
         if not source.exists():
             print(f"  MISSING {name} - skipped")
             continue
-        shutil.copy2(source, DOCS / "files" / name)
+        shutil.copy2(source, DOCS / "files" / source.name)
         print(f"  {name} ({source.stat().st_size // 1024} kB)")
 
 

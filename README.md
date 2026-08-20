@@ -49,6 +49,9 @@ This repo is public, because GitHub Pages on a free account only serves public r
 Working notes, my co-presenter's slides, and anything derived from them are excluded in
 `.gitignore` and stay local. The joint deck goes up when it is agreed, not before.
 
+Locally, the working copies live in `showcase/` and `zoo-day/` (one folder per event),
+with superseded versions in `archive/`. What ships is always the copy in `docs/files/`.
+
 ## Credits
 
 Luke Butcher · School of Management and Marketing — UDL, pedagogy, and Assessment 2030
