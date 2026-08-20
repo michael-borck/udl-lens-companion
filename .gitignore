@@ -7,13 +7,12 @@ AUDIT.md
 SHOWCASE-RUNNING-ORDER.md
 reply-to-luke-draft.md
 
-# Luke's material and anything derived from it. Not ours to publish, and the
-# suggested cut has not been agreed yet.
+# Luke's material and anything derived from it. Not ours to publish.
 lukes-original/
-UDL_Lens_Retreat_v5.pptx
-UDL_Lens_Retreat_v6.pptx
-UDL_Lens_Showcase_SUGGESTION_v1.pptx
-UDL_Lens_ZooDay_v1.pptx
+
+# Superseded versions, moved out of the working folder. Several carry Luke's
+# material, so the whole folder stays out of the public repo.
+archive/
 
 # Run sheet, contingencies and the poll build spec - presenters only.
 UDL_Lens_ZooDay_Facilitator_Pack.docx
@@ -25,13 +24,9 @@ slide-assets/
 # Email bundles - carry Luke's slides, and are rebuilt by scripts/make_bundles.py
 bundles/
 
-# Superseded.
-UDL_Lens_iSoLT_Handout.docx
-
 # The published copies under docs/files/ are the ones that ship. The originals
 # in the repo root are the working copies.
-/UDL_Lens_Showcase_Leavebehind.docx
-/UDL_Lens_iSoLT_Handout_v2.docx
+/UDL_Lens_iSoLT_Handout_v3.docx
 /UDL3_Coverage_Map_for_review.docx
 /UDL_Lens_ZooDay_Print_Materials.docx
 /UDL_Lens_Showcase_AI_half_v1.pptx
